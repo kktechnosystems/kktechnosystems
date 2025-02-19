@@ -1,0 +1,50 @@
+frst step 1///
+npm install firebase
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBEdHO37FRCoSKcGHjGRJ2Jt2WfM0Nddb4",
+  authDomain: "water-level-monitoring-s-25c8f.firebaseapp.com",
+  databaseURL: "https://water-level-monitoring-s-25c8f-default-rtdb.firebaseio.com",
+  projectId: "water-level-monitoring-s-25c8f",
+  storageBucket: "water-level-monitoring-s-25c8f.firebasestorage.app",
+  messagingSenderId: "397671626591",
+  appId: "1:397671626591:web:b7387fdc03171a30b3e8ea"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+
+step 2///
+
+npm install -g firebase-tools
+
+step 3 ///
+firebase login
+firebase init
+
+step 4///
+
+firebase deploy
+
+
+// verify the page //
+
+/// link:https://firebase.google.com/docs/hosting/quickstart?hl=en&authuser=0&_gl=1*j2qow0*_ga*MjEyMjgzMTczLjE3MzMyMTA3Nzk.*_ga_CW55HF8NVT*MTczMzIxMDc3OC4xLjEuMTczMzIxMTQzNS42MC4wLjA.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,8 @@
+{
+    "rules": {
+      "waterLevel": {
+        ".read": "auth != null",
+        ".write": "auth != null"
+      }
+    }
+  }
